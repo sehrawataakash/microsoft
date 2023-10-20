@@ -1,0 +1,320 @@
+/* UNIVERSAL SELECTOR  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe Ui', 'Helvetica';
+}
+
+/* NAVBAR  */
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+img {
+    width: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.items-second {
+    margin-left: 400px;
+}
+
+i {
+    margin-left: 20px;
+}
+
+/* MAIN SECTION  */
+
+.imageone {
+    width: 100vw;
+    height: 600px;
+    background-color: grey;
+}
+
+.textonimage {
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+
+.microsoft {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.microsoft-text {
+    font-weight: 400;
+}
+
+.button-one {
+    width: 125px;
+    height: 40px;
+    background-color: #0078d4;
+    border: 1px #0078d4;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.button-two {
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* SERVICES SECTION  */
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.second-i {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.services-text {
+    display: flex;
+}
+
+.m365 {
+    margin-left: 205px;
+}
+
+.devices {
+    margin-left: 72px;
+}
+
+.games {
+    margin-left: 70px;
+}
+
+.windows {
+    margin-left: 84px;
+}
+
+/* PRODUCTS SECTION  */
+
+.products {
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-one {
+    width: 285px;
+    height: 345px;
+}
+
+.p-one {
+    width: 285px;
+}
+
+.product-two {
+    width: 285px;
+    height: 345px;
+}
+
+.p-two {
+    width: 285px;
+}
+
+.product-three {
+    width: 285px;
+    height: 345px;
+}
+
+.p-three {
+    width: 285px;
+}
+
+.product-four {
+    width: 285px;
+    height: 345px;
+}
+
+.p-four {
+    width: 285px;
+}
+
+.product-main-text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product-button {
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 18px;
+    color: #0078d4;
+}
+
+/* AI SECTION  */
+
+.ai {
+    width: 100vw;
+    height: 500px;
+}
+
+.ai-image {
+    margin-left: 110px;
+    width: 85vw;
+    height: 550px;
+}
+
+.ai-text-main {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ai-text-bottom {
+    font-weight: 450;
+}
+
+.textonimage-two {
+    position: absolute;
+    top: 1380px;
+    left: 200px;
+}
+
+.ai-button {
+    width: 162px;
+    height: 40px;
+    background-color: #0078d4;
+    border: 1px #0078d4;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+/* FOR BUSINESS SECTION  */
+
+.business-h1 {
+    font-weight: 500;
+    margin-left: 42px;
+}
+
+.textonimage-three {
+    text-align: center;
+    padding-top: 35px;
+    width: 460px;
+    height: 320px;
+    background-color: white;
+    position: absolute;
+    top: 2540px;
+    left: 170px;
+}
+
+.ai-button {
+    width: 330px;
+    height: 40px;
+    background-color: #0078d4;
+    border: 1px #0078d4;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+/* SOCIALS SECTION  */
+
+.socials {
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.socials-icons {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/* FOOTER SECTION  */
+
+footer {
+    background-color: #eeeeee;
+}
+
+.footer-div {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    color: #616161;
+}
+
+th {
+    font-size: 15px;
+}
+
+td {
+    font-size: 12px;
+}
+
+/* SECOND FOOTER  */
+
+.extra-footer {
+    display: flex;
+    align-items: center;
+    color: #616161;
+    font-size: 12px;
+}
+
+.last-icons {
+    margin-right: 10px;
+}
+
+.last-footer-ids {
+    margin-left: 360px;
+    margin-right: 25px;
+}
+
+.second-footer-ids {
+    color: #616161;
+}
+
+.last-footer-text {
+    font-size: 15px;
+}
+
+/* CONGRATULATIONS */
